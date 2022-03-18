@@ -1,0 +1,5 @@
+src_file = open('1.jpg', 'rb')
+target_file = open('copy1.jpg', 'wb')
+target_file.write(src_file.read())
+src_file.close()
+target_file.close()
